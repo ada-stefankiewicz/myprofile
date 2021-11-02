@@ -1,0 +1,97 @@
+body {
+	font-family: 'Zen Antique Soft', serif;
+	background-color: beige;
+	background-image: url("http://wallpapersdsc.net/wp-content/uploads/2016/10/Ocean-Desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+h1{
+	font-weight: bolder;
+	font-size: 48px;
+	color: cadetblue;
+}
+
+h2{
+	color: cadetblue;
+}
+
+img{
+	border-radius:50%;
+	width: 80px;
+	height: 100px
+}
+
+ul li{
+	list-style: none;
+	padding: 0px;
+	color: lightpink;
+}
+
+ul li a{
+	text-decoration: none;
+	font-size: 40px;
+	line-height: 1.8;
+	color: lightpink;
+	padding: 10px;
+}
+
+ul li a:hover{
+	color: pink;
+}
+
+ul{
+	padding: 0px;
+}
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card-white{
+	background: beige;
+	border:  16px solid white;
+	padding: 24px;
+	border-radius: 10px;
+	box-shadow: 6px 16px 24px rgba(0,0,0.5);
+	margin: 50px;
+}
+
+.btn-blue{
+	background-color: cadetblue;
+	padding: 14px 18px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+.btn-blue:hover{
+	background-color: grey;
+}
+
+.inline li{
+	display: inline;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.inline a{
+	text-decoration: none;
+}
+
+.background{
+	background-image: img src="ada.jpeg";
+}
+
+@media(max-width: 600px){
+	.container{
+		width: 300px;
+	}
+}
+
+@media(max-width: 500px){
+	body
